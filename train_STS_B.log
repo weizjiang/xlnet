@@ -1,0 +1,75 @@
+I0828 12:32:34.825543 140639699412736 session_manager.py:500] Running local_init_op.
+I0828 12:32:34.943138 140639699412736 session_manager.py:502] Done running local_init_op.
+I0828 12:32:48.306981 140639699412736 evaluation.py:167] Evaluation [4/47]
+I0828 12:32:59.763416 140639699412736 evaluation.py:167] Evaluation [8/47]
+I0828 12:33:10.978018 140639699412736 evaluation.py:167] Evaluation [12/47]
+I0828 12:33:22.000044 140639699412736 evaluation.py:167] Evaluation [16/47]
+I0828 12:33:33.234520 140639699412736 evaluation.py:167] Evaluation [20/47]
+I0828 12:33:44.745822 140639699412736 evaluation.py:167] Evaluation [24/47]
+I0828 12:33:56.127936 140639699412736 evaluation.py:167] Evaluation [28/47]
+I0828 12:34:07.588268 140639699412736 evaluation.py:167] Evaluation [32/47]
+I0828 12:34:18.698695 140639699412736 evaluation.py:167] Evaluation [36/47]
+I0828 12:34:29.521200 140639699412736 evaluation.py:167] Evaluation [40/47]
+I0828 12:34:40.584033 140639699412736 evaluation.py:167] Evaluation [44/47]
+I0828 12:34:48.928690 140639699412736 evaluation.py:167] Evaluation [47/47]
+I0828 12:34:49.079503 140639699412736 evaluation.py:275] Finished evaluation at 2019-08-28-12:34:49
+I0828 12:34:49.079852 140639699412736 estimator.py:2039] Saving dict for global step 0: eval_loss = 7.5785923, eval_pearsonr = 0.07653844, global_step = 0, loss = 7.5587897
+I0828 12:34:49.854058 140639699412736 estimator.py:2099] Saving 'checkpoint_path' summary for global step 0: exp/sts-b/model.ckpt-0
+I0828 12:34:49.854878 140639699412736 run_classifier.py:786] ================================================================================
+I0828 12:34:49.855025 140639699412736 run_classifier.py:790] Eval result | eval_loss 7.578592300415039 | eval_pearsonr 0.07653844356536865 | global_step 0 | loss 7.5587897300720215 | path exp/sts-b/model.ckpt-0 | step 0 | 
+I0828 12:34:49.893276 140639699412736 estimator.py:1145] Calling model_fn.
+I0828 12:34:49.902743 140639699412736 modeling.py:453] memory input None
+I0828 12:34:49.902867 140639699412736 modeling.py:455] Use float type <dtype: 'float32'>
+I0828 12:34:54.579192 140639699412736 run_classifier.py:527] #params: 117308929
+I0828 12:34:54.760498 140639699412736 estimator.py:1147] Done calling model_fn.
+I0828 12:34:54.784605 140639699412736 evaluation.py:255] Starting evaluation at 2019-08-28T12:34:54Z
+I0828 12:34:55.304007 140639699412736 monitored_session.py:240] Graph was finalized.
+I0828 12:34:55.306548 140639699412736 saver.py:1280] Restoring parameters from exp/sts-b/model.ckpt-600
+I0828 12:34:56.433025 140639699412736 session_manager.py:500] Running local_init_op.
+I0828 12:34:56.518921 140639699412736 session_manager.py:502] Done running local_init_op.
+I0828 12:35:09.374015 140639699412736 evaluation.py:167] Evaluation [4/47]
+I0828 12:35:19.732375 140639699412736 evaluation.py:167] Evaluation [8/47]
+I0828 12:35:30.571692 140639699412736 evaluation.py:167] Evaluation [12/47]
+I0828 12:35:41.353123 140639699412736 evaluation.py:167] Evaluation [16/47]
+I0828 12:35:52.041877 140639699412736 evaluation.py:167] Evaluation [20/47]
+I0828 12:36:02.740575 140639699412736 evaluation.py:167] Evaluation [24/47]
+I0828 12:36:13.767632 140639699412736 evaluation.py:167] Evaluation [28/47]
+I0828 12:36:24.738412 140639699412736 evaluation.py:167] Evaluation [32/47]
+I0828 12:36:35.408914 140639699412736 evaluation.py:167] Evaluation [36/47]
+I0828 12:36:46.511757 140639699412736 evaluation.py:167] Evaluation [40/47]
+I0828 12:36:57.510870 140639699412736 evaluation.py:167] Evaluation [44/47]
+I0828 12:37:05.836173 140639699412736 evaluation.py:167] Evaluation [47/47]
+I0828 12:37:05.989174 140639699412736 evaluation.py:275] Finished evaluation at 2019-08-28-12:37:05
+I0828 12:37:05.989743 140639699412736 estimator.py:2039] Saving dict for global step 600: eval_loss = 0.6874995, eval_pearsonr = 0.87241346, global_step = 600, loss = 0.6881503
+I0828 12:37:05.990942 140639699412736 estimator.py:2099] Saving 'checkpoint_path' summary for global step 600: exp/sts-b/model.ckpt-600
+I0828 12:37:05.992606 140639699412736 run_classifier.py:786] ================================================================================
+I0828 12:37:05.992844 140639699412736 run_classifier.py:790] Eval result | eval_loss 0.6874995231628418 | eval_pearsonr 0.8724134564399719 | global_step 600 | loss 0.6881502866744995 | path exp/sts-b/model.ckpt-600 | step 600 | 
+I0828 12:37:06.044969 140639699412736 estimator.py:1145] Calling model_fn.
+I0828 12:37:06.055168 140639699412736 modeling.py:453] memory input None
+I0828 12:37:06.055293 140639699412736 modeling.py:455] Use float type <dtype: 'float32'>
+I0828 12:37:10.530775 140639699412736 run_classifier.py:527] #params: 117308929
+I0828 12:37:10.712255 140639699412736 estimator.py:1147] Done calling model_fn.
+I0828 12:37:10.736365 140639699412736 evaluation.py:255] Starting evaluation at 2019-08-28T12:37:10Z
+I0828 12:37:11.439612 140639699412736 monitored_session.py:240] Graph was finalized.
+I0828 12:37:11.456029 140639699412736 saver.py:1280] Restoring parameters from exp/sts-b/model.ckpt-1200
+I0828 12:37:12.606657 140639699412736 session_manager.py:500] Running local_init_op.
+I0828 12:37:12.763104 140639699412736 session_manager.py:502] Done running local_init_op.
+I0828 12:37:25.580410 140639699412736 evaluation.py:167] Evaluation [4/47]
+I0828 12:37:35.775884 140639699412736 evaluation.py:167] Evaluation [8/47]
+I0828 12:37:46.487520 140639699412736 evaluation.py:167] Evaluation [12/47]
+I0828 12:37:57.552178 140639699412736 evaluation.py:167] Evaluation [16/47]
+I0828 12:38:08.184286 140639699412736 evaluation.py:167] Evaluation [20/47]
+I0828 12:38:19.233782 140639699412736 evaluation.py:167] Evaluation [24/47]
+I0828 12:38:30.181345 140639699412736 evaluation.py:167] Evaluation [28/47]
+I0828 12:38:41.205826 140639699412736 evaluation.py:167] Evaluation [32/47]
+I0828 12:38:52.346965 140639699412736 evaluation.py:167] Evaluation [36/47]
+I0828 12:39:03.204737 140639699412736 evaluation.py:167] Evaluation [40/47]
+I0828 12:39:14.248996 140639699412736 evaluation.py:167] Evaluation [44/47]
+I0828 12:39:22.303808 140639699412736 evaluation.py:167] Evaluation [47/47]
+I0828 12:39:22.466161 140639699412736 evaluation.py:275] Finished evaluation at 2019-08-28-12:39:22
+I0828 12:39:22.466510 140639699412736 estimator.py:2039] Saving dict for global step 1200: eval_loss = 0.5081197, eval_pearsonr = 0.8890137, global_step = 1200, loss = 0.5074561
+I0828 12:39:22.467338 140639699412736 estimator.py:2099] Saving 'checkpoint_path' summary for global step 1200: exp/sts-b/model.ckpt-1200
+I0828 12:39:22.468199 140639699412736 run_classifier.py:786] ================================================================================
+I0828 12:39:22.468340 140639699412736 run_classifier.py:790] Eval result | eval_loss 0.5081197023391724 | eval_pearsonr 0.8890137076377869 | global_step 1200 | loss 0.5074561238288879 | path exp/sts-b/model.ckpt-1200 | step 1200 | 
+I0828 12:39:22.468444 140639699412736 run_classifier.py:795] ================================================================================
+I0828 12:39:22.468530 140639699412736 run_classifier.py:799] Best result | eval_loss 0.5081197023391724 | eval_pearsonr 0.8890137076377869 | global_step 1200 | loss 0.5074561238288879 | path exp/sts-b/model.ckpt-1200 | step 1200 |
