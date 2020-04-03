@@ -97,7 +97,7 @@ def two_stream_loss(FLAGS, features, labels, mems, is_training):
 
   with tf.variable_scope("model", reuse=tf.AUTO_REUSE):
     # LM loss
-    lm_loss = modeling.lm_loss(
+    lm_loss, _ = modeling.lm_loss(
         hidden=output,
         target=tgt,
         n_token=xlnet_config.n_token,

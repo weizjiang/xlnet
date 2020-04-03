@@ -681,7 +681,7 @@ def lm_loss(hidden, target, n_token, d_model, initializer, lookup_table=None,
       loss = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=target,
                                                             logits=logits)
 
-    return loss
+    return loss, logits
 
 
 def summarize_sequence(summary_type, hidden, d_model, n_head, d_head, dropout,
