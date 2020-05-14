@@ -54,8 +54,8 @@ class XLNetLM:
                 xlnet_config=xlnet_config,
                 run_config=run_config,
                 input_ids=self.input_ids,
-                seg_ids=self.seg_id,
-                input_mask=self.inp_mask,
+                seg_ids=self.seg_ids,
+                input_mask=self.input_mask,
                 mems=None,
                 perm_mask=self.perm_mask,
                 target_mapping=self.target_mapping,
@@ -96,3 +96,6 @@ class XLNetLM:
 
         self.tokenizer = tokenization.FullTokenizer(
             vocab_file=vocab_file, do_lower_case=True)
+
+if __name__ == '__main__':
+    xlnet_lm = XLNetLM(r'C:\Works\PretrainedModel\chinese_xlnet_base_L-12_H-768_A-12')
